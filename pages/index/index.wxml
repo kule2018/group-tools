@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<navigator url='' open-type="switchTab"></navigator>
+<view class="container">
+   <view class="userinfo" wx:if="{{!hasUserInfo}}"></view> 
+   <block wx:else>
+   <view class='onlyView'>
+      <image bindtap="bindViewTap" class="only_tou" src="image.png" background-size="cover"></image>
+      <button bindtap="bindViewTap" class="onlyBtn">投</button>
+   </view> 
+    </block>
+  </view>

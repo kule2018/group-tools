@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/toupiao/toupiao",
+    "pages/mine/mine",
+    "pages/myVoting/index",
+    "pages/joinedVoting/index",
+    "pages/about/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "投票",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "borderStyle": "#000",
+    "selectedColor": "#9999FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "新建",
+        "iconPath": "images/icon-add1.png",
+        "selectedIconPath": "images/icon-add2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/icon-mine1.png",
+        "selectedIconPath": "images/icon-mine2.png"
+      }
+    ]
+  }
+}
