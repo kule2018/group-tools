@@ -1,0 +1,8 @@
+/* pages/event-create/event-create.wxss */
+.per-image {
+  width: 100px; 
+  height: 100px;
+  background-color: #eeeeee;
+  margin-left: 1%;
+  margin-right: 1%;
+}

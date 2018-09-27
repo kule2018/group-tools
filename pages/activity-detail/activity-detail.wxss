@@ -1,0 +1,8 @@
+/* pages/activity-detail/activity-detail.wxss */
+.font-bold{
+  font-family:SimHei;
+  font-size:30px;
+}
+.font-thin{
+  font-size:10px;
+}

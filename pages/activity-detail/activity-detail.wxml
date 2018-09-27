@@ -1,0 +1,27 @@
+<!--pages/activity-detail/activity-detail.wxml-->
+<view>
+  <view>
+    <view style='text-align: center'>
+      <view class="font-thin">活动名称</view>
+      <view class="font-bold">{{title}}</view>
+    </view>
+    <view>
+      <view style='padding-left: 15px'>活动描述: </view>
+      <view style='padding-left: 15px'>{{describe}}</view>
+    </view>
+    <view>
+      <view class="weui-cell">
+        <view class="weui-cell_hd">活动开始日期:  </view>
+        <view class="weui-cell_bd">{{start_date}}</view>
+      </view>
+      <view class="weui-cell">
+        <view class="weui-cell_hd">活动结束日期:  </view>
+        <view class="weui-cell_bd">{{end_date}}</view>
+      </view>
+    </view>
+  <view class='btn-area'>
+      <button type='primary' bindtap='enterCreateEvent'>添加事件</button>
+  </view>
+  </view>
+</view>
+
