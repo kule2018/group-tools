@@ -1,6 +1,0 @@
-<!--pages/mine/index.wxml-->
-  <view class="mine-container">
-        <view class="no-data">
-            您还没有创建投票，点击<label bindtap="openIndex">创建</label>
-        </view>
-  </view>

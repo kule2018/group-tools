@@ -30,6 +30,9 @@ Page({
     var _this = this;
       wx.request({
         url: domain + root + '/activity/detail',
+        data: {
+          aid: options.aid
+        },
         success: function(res){
           console.log("a_d success");
           _this.setData({

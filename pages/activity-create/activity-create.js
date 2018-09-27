@@ -20,7 +20,6 @@ Page({
       "start_date": this.data.start_date,
       "end_date": this.data.end_date
     }
-    
     console.log(data);
     wx.request({
       url:  domain + root + '/activity/add',
@@ -31,13 +30,12 @@ Page({
         console.log(res.data);
         if(res.data.addActivity == "ok"){
           wx.redirectTo({
-            url: '/pages/activity-detail/activity-detail',
+            url: '/pages/activity-detail/activity-detail?aid=' + res.data.aid,
             success: function(res){
               console.log("successfully redirectTo");
-
             },
             fail: function(res){
-
+              console.log("addActivity fail!");
             }
           })
         }
